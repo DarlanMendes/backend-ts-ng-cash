@@ -13,7 +13,7 @@ class BalanceUserService{
         if(!balanceRequested){
             throw new Error("Não foi possível carregar o saldo do usuário")
         }
-        return {balance:balanceRequested}
+        return {account:balanceRequested}
     }
 }
 export {BalanceUserService}
